@@ -146,7 +146,6 @@ function renderPortfolio(event, users, stocks) {
     }
   });
 }
-...
   // Register the event listener on the delete button
   deleteButton.addEventListener('click', (event) => {
     // we don't want the form to submit (since we will lose form state)
